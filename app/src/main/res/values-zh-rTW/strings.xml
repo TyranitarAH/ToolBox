@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">工具箱</string>
+    <string name="dummy_button">進入</string>
+    <string name="dummy_content">歡迎使用</string>
+
+    <string name="title_activity_menu">選單頁面</string>
+    <string name="MenuTitle">請選擇功能..</string>
+    <string name="action_settings">設置</string>
+
+    <string name="Calculater">計算器</string>
+    <string name="Conversion">單位換算</string>
+    <string name="ImageExplore">照片瀏覽器</string>
+    <string name="Return">返回</string>
+
+    <string name="title_activity_calculater">計算器頁面</string>
+    <string name="answer">結果</string>
+    <string name="equal">=</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="clear">C</string>
+    <string name="canNotBeZero">除數不能為0.</string>
+    <string name="sendResult">發送結果</string>
+
+
+    <string name="title_activity_conversion">單位換算選單</string>
+    <string name="type">選擇單位類型</string>
+    <string name="length">長度</string>
+    <string name="time">時間</string>
+    <string name="unit">選擇單位</string>
+    <string name="input">輸入數字</string>
+    <string name="to">轉換為</string>
+    <string name="output">轉換結果</string>
+    <string name="conversion">換算</string>
+    <string name="caculate">計算</string>
+    <string-array name="length_list">
+        <item>米</item>
+        <item>釐米</item>
+        <item>毫米</item>
+    </string-array>
+    <string-array name="time_list">
+        <item>天</item>
+        <item>小時</item>
+        <item>分鐘</item>
+        <item>秒</item>
+    </string-array>
+
+    <string name="title_activity_image">影像瀏覽器</string>
+    <string name="OpenExplore">新增相片</string>
+    <string name="ImageViewContentDescription">影像瀏覽器</string>
+</resources>
