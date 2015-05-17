@@ -11,6 +11,7 @@
     <string name="Calculater">計算器</string>
     <string name="Conversion">單位換算</string>
     <string name="ImageExplore">照片瀏覽器</string>
+    <string name="Timer">計時器</string>
     <string name="Return">返回</string>
 
     <string name="title_activity_calculater">計算器頁面</string>
@@ -60,4 +61,9 @@
     <string name="title_activity_image">影像瀏覽器</string>
     <string name="OpenExplore">新增相片</string>
     <string name="ImageViewContentDescription">影像瀏覽器</string>
+
+    <string name="TimeInital">00:00</string>
+    <string name="TimeBtnInitial">開始</string>
+    <string name="TimeBtnStop">停止</string>
+    <string name="TimeBtnClear">清空</string>
 </resources>

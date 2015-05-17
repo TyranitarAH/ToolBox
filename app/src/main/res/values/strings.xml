@@ -10,6 +10,7 @@
     <string name="Calculater">Calculater</string>A
     <string name="Conversion">Conversion</string>
     <string name="ImageExplore">ImageExplore</string>
+    <string name="Timer">Timer</string>
     <string name="Return">Return</string>
 
     <string name="title_activity_calculater">Calculater</string>
@@ -60,5 +61,14 @@
     <string name="title_activity_image">ImageViewer</string>
     <string name="OpenExplore">Explore Image</string>
     <string name="ImageViewContentDescription">ImageExplore</string>
+    <string name="title_activity_timer">TimerActivity</string>
+
+    <string name="TimeInital">00:00</string>
+    <string name="TimeBtnInitial">Start</string>
+    <string name="TimeBtnStop">Stop</string>
+    <string name="TimeBtnClear">Clear</string>
+
+
+
 
 </resources>

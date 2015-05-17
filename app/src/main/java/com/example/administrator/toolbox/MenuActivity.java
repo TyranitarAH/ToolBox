@@ -10,7 +10,7 @@ import android.widget.*;
 
 public class MenuActivity extends ActionBarActivity {
 
-    private Button btnCalculater,btnConversion,btnImageExplore;
+    private Button btnCalculater,btnConversion,btnImageExplore,btnTimer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +18,12 @@ public class MenuActivity extends ActionBarActivity {
         btnCalculater=(Button)findViewById(R.id.btnCalculater);
         btnConversion=(Button)findViewById(R.id.btnConversion);
         btnImageExplore=(Button)findViewById(R.id.btnImageExplore);
+        btnTimer=(Button)findViewById(R.id.btnTimer);
+
         btnCalculater.setOnClickListener(btnCalOnClickListener);
         btnConversion.setOnClickListener(btnConversionOnClickListener);
         btnImageExplore.setOnClickListener(btnImageExploreOnClickListenr);
+        btnTimer.setOnClickListener(btnTimerOnClickListener);
     }
 
     private View.OnClickListener btnImageExploreOnClickListenr=new View.OnClickListener(){
@@ -48,6 +51,15 @@ public class MenuActivity extends ActionBarActivity {
             Intent itMenu2Cal=new Intent();
             itMenu2Cal.setClass(MenuActivity.this,CalculaterActivity.class);
             startActivity(itMenu2Cal);
+        }
+    };
+
+    private View.OnClickListener btnTimerOnClickListener=new View.OnClickListener(){
+        @Override
+        public void onClick(View v){
+            Intent itMenu2Timer=new Intent();
+            itMenu2Timer.setClass(MenuActivity.this,TimerActivity.class);
+            startActivity(itMenu2Timer);
         }
     };
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -41,4 +41,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Timer"
+        android:id="@+id/btnTimer"
+        android:layout_below="@+id/btnImageExplore"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
